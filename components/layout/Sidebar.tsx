@@ -11,6 +11,7 @@ import SidebarTweetButton from "./SidebarTweetButton";
 
 const Sidebar = () => {
   const { data: currentUser } = useCurrentUser();
+
   const items = [
     {
       label: "Home",
